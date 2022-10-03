@@ -1,0 +1,30 @@
+class Song:
+
+    def __init__(self, title, author, lyrics1, lyrics2):
+
+        self.title = title
+        self.author = author
+        self.lyrics1 = lyrics1
+        self.lyrics2 = lyrics2
+
+    def sing(self):
+        zm.sing()
+        ys.sing()
+
+    def yell(self):
+        zm_yell()
+        # ys.yell()
+
+
+zm = Song("Ziemeļmeita", "Jumprava",
+          "Gāju meklēt ziemeļmeitu", "Garu, tālu ceļu veicu")
+ys = Song("Yesterday", "The Beatles", "Yesterday",
+          "All my troubles seemed so far away")
+
+print(zm.title + "-" + zm.author)
+print(zm.lyrics1)
+print(zm.lyrics2)
+
+print(ys.title + "-" + ys.author)
+print(ys.lyrics1)
+print(ys.lyrics2)
