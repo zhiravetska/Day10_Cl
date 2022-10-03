@@ -1,3 +1,4 @@
+
 class Song:
 
     def __init__(self, title, author, lyrics1, lyrics2):
@@ -11,9 +12,10 @@ class Song:
         zm.sing()
         ys.sing()
 
-    def yell(self):
-        zm_yell()
-        # ys.yell()
+    # def yell(self):
+    #     zm.yell()
+    
+    #     # ys.yell()
 
 
 zm = Song("Ziemeļmeita", "Jumprava",
